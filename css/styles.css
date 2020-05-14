@@ -11,6 +11,7 @@
   box-sizing: border-box;
 }
 body {
+  /* width: 1600px; */
   margin: 0;
   font-family: roboto, sans-serif;
 }
@@ -35,6 +36,8 @@ a {
   margin: 0 auto;
 }
 .logo {
+  display: block;
+
   color: var(--blue-color);
   font-family: raleway;
   font-weight: 700;
@@ -50,7 +53,7 @@ a {
   align-items: center;
 }
 .nav-list {
-  padding: 32px 0;
+  /* padding: 32px 0; */
   margin-left: 80px;
   display: flex;
   list-style-type: none;
@@ -59,6 +62,7 @@ a {
   margin-left: 45px;
 }
 .nav-list .link {
+  display: block;
   padding: 32px 0;
 
   color: var(--dark-gray-color);
@@ -72,6 +76,7 @@ a {
   color: var(--blue-color);
 }
 .address {
+  display: block;
   margin-left: auto;
 }
 .address > .link + .link {
@@ -122,7 +127,7 @@ a {
   border: 0;
   border-radius: 4px;
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
   text-align: center;
 }
 /* advanatages */
@@ -136,27 +141,42 @@ a {
   display: flex;
   width: 1230px;
   margin: 0 auto;
+  padding: 0 15px;
 
   list-style-type: none;
 }
+.advantages-list > .item {
+  display: block;
+  width: 278px;
+}
+.advantages-list > .item + .item {
+  margin-left: 30px;
+}
 .advantage-logo {
+  /* display: block; */
   padding: 25px 104px;
   background-color: var(--light-gray-color);
   border: 0;
   border-radius: 4px;
   /* outline: 2px solid tomato; */
 }
+.advantage-logo:hover {
+  background-color: var(--blue-color);
+}
 .advantages h3 {
+  margin-top: 30px;
+
   color: var(--dark-gray-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-top: 30px;
   /* outline: 2px solid tomato; */
 }
 .advantages p {
+  margin-top: 10px;
+
   color: var(--gray-color);
   font-weight: 400;
   font-size: 14px;
