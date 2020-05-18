@@ -21,6 +21,7 @@ img {
 }
 
 .index-main h2 {
+  margin-bottom: 50px;
   color: var(--dark-gray-color);
   font-weight: 700;
   font-size: 36px;
@@ -34,12 +35,12 @@ img {
   text-align: center;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
 .container > .list {
-  margin: 50px 0 0 0;
+  margin: 0 0 0 0;
   padding: 0;
 
   display: flex;
@@ -155,9 +156,13 @@ img {
 .hidden {
   display: none;
 }
+.advantages .list .item {
+  display: block;
+  width: 270px;
+}
 .advantage-logo {
   /* display: block; */
-  padding: 25px 104px;
+  padding: 25px 100px;
   background-color: var(--light-gray-color);
   border: 0;
   border-radius: 4px;
@@ -178,8 +183,8 @@ img {
   /* outline: 2px solid tomato; */
 }
 .advantages p {
-  display: block;
-  width: 278px;
+  /* display: block; */
+  /* width: 270px; */
   margin: 10px 0 0 0;
 
   color: var(--gray-color);
@@ -215,9 +220,10 @@ img {
 .our-team {
   background-color: #f5f4fa;
 }
-.our-team .list .item {
-  text-align: center;
+.our-team .list > .item {
 
+  padding-bottom: 24px;
+  text-align: center;
   border: 0;
   border-radius: 4px;
   background-color: var(--white-color);
@@ -226,8 +232,8 @@ img {
     0px 1px 3px rgba(0, 0, 0, 0.12);
 }
 .our-team h3 {
-  margin: 0;
-  padding: 30px 0 0 0;
+  margin: 30px 0 0 0;
+  /* padding: 30px 0 0 0; */
   color: var(--dark-gray-color);
   font-weight: 500;
   font-size: 16px;
@@ -235,8 +241,8 @@ img {
   letter-spacing: 0.03em;
 }
 .our-team p {
-  margin: 0;
-  padding: 10px 0 0 0;
+  margin: 10px 0 0 0;
+  padding 0; 
   color: var(--gray-color);
   font-weight: 400;
   font-size: 16px;
@@ -245,24 +251,25 @@ img {
 }
 .social-media-list {
   padding: 0;
-  margin: 16px auto;
+  margin-top: 16px;
   display: flex;
   justify-content: center;
   list-style-type: none;
-  width: 207px;
+  /* width: 207px; */
 }
-.social-media-list > .link {
+.social-media-list .link {
+  display: block;
   padding: 12px 12px;
   border: 0;
   border-radius: 50%;
 }
-.social-media-list > .link + .link {
+.social-media-list > .item + .item {
   margin-left: 10px;
 }
-/* .social-media-list > .link:hover,
+.social-media-list .link:hover,
 :focus {
   background-color: var(--blue-color);
-} */
+}
 /* clients section */
 .clients .list .link {
   /* display: block;  */
@@ -288,22 +295,21 @@ img {
 }
 .footer .container {
   display: flex;
+  padding-top: 46px;
   padding-bottom: 28px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: baseline;
 }
-.footer .container .item {
+.footer .block {
   display: flex;
+  display: block;
   flex-direction: column;
   justify-content: flex-start;
 }
 
 /* column-1  */
 
-.address-column {
-  margin-top: 46px;
-}
 .logo-footer {
   font-family: raleway;
   color: var(--blue-color);
@@ -342,9 +348,8 @@ img {
 
 /* присоединяйтесь */
 
-.connect {
-  margin: 52px 0 0 0;
-}
+/* .connect {
+  margin: 52px 0 0 0; */
 .footer b {
   font-weight: bold;
   font-size: 14px;
@@ -358,24 +363,25 @@ img {
   padding: 0;
   list-style-type: none;
 }
-.connect .social-link {
+.connect .link {
+  display: block;
   padding: 12px 12px;
   border: 0;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-.connect .social-link + .social-link {
+.connect .item + .item {
   margin-left: 10px;
 }
-.connect .social-link:hover,
-.connect .social-link:focus {
+.connect .link:hover,
+.connect .link:focus {
   background-color: var(--blue-color);
 }
 
 /* подписаться на рассылку */
 
 .subscribe {
-  margin: 52px 0 0 0;
+  /* margin: 0 0 0 0; */
   display: flex;
   flex-direction: row;
 }
@@ -485,7 +491,7 @@ img {
 .card-list > .item {
   padding: 0;
   margin: 15px;
-  width: 380px;
+  width: 370px;
   display: block;
   list-style-type: none;
 }
@@ -500,7 +506,7 @@ img {
   border-radius: 0 0 5px 5px;
   border-top: 0;
 }
-.gallery .header {
+.card-list .header {
   margin: 0;
   color: var(--dark-gray-color);
   font-weight: 700;
@@ -509,7 +515,7 @@ img {
   letter-spacing: 0.06em;
 }
 .type {
-  margin: 0;
+  margin: 4px 0 0 0;
   /* display: block; */
   color: var(--gray-color);
   font-weight: 400;
