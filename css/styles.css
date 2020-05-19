@@ -392,24 +392,24 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.connect .list {
+.connect-list {
   display: flex;
   margin: 20px 0 0 0;
   padding: 0;
   list-style-type: none;
 }
-.connect .link {
+.connect-link {
   display: block;
   padding: 12px 12px;
   border: 0;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-.connect .item + .item {
-  margin-left: 10px;
+.connect-item:not(:last-child) {
+  margin-right: 10px;
 }
-.connect .link:hover,
-.connect .link:focus {
+.connect-link:hover,
+.connect-link:focus {
   background-color: var(--blue-color);
 }
 
