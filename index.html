@@ -18,16 +18,17 @@
       <nav class="nav-container">
         <a class="logo" lang="en" href="./index.html">Web <span class="studio">Studio</span></a>
         <ul class="nav-list">
-          <li class="nav-li"><a class="link" href="./index.html">Студия</a></li>
-          <li class="nav-li"><a class="link" href="./portfolio.html">Портфолио</a></li>
-          <li class="nav-li"><a class="link" href="">Контакты</a></li>
+          <li class="nav-item"><a class="nav-link" href="./index.html">Студия</a></li>
+          <li class="nav-item"><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Контакты</a></li>
         </ul>
       </nav>
       <address class="address">
-        <a class="link" lang="en" href="mailto:info@devstudio.com"><img class="pic" src="./images/envelope.svg"
+        <a class="address-link" lang="en" href="mailto:info@devstudio.com"><img class="pic" src="./images/envelope.svg"
             alt="envelope">
           info@devstudio.com</a>
-        <a class="link" href="tel:+380961111111"> <img class="pic" src="./images/smartphone.svg" alt="smartphone"> +38
+        <a class="address-link" href="tel:+380961111111"> <img class="pic" src="./images/smartphone.svg"
+            alt="smartphone"> +38
           096 111 11
           11</a>
       </address>
@@ -41,41 +42,41 @@
         эффективные решения<br />
         для вашего бизнеса
       </h1>
-      <button>Заказать услугу</button>
+      <button class="hero-button">Заказать услугу</button>
     </section>
     <!-- Преимущества (нужно спрятать h2) -->
-    <section class="advantages section">
+    <section class="advantage section">
       <div class="container">
         <h2 class="hidden">Преимущества</h2>
-        <ul class="list">
-          <li class="item">
+        <ul class="advantage-list">
+          <li class="advantage-item">
             <img class="advantage-logo" src="./img/antenna-logo.svg" alt="спутниковая антенна" />
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="advantage-title">Внимание к деталям</h3>
+            <p class="advantage-description">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li class="item">
+          <li class="advantage-item">
             <img class="advantage-logo" src="./img/clock-logo.svg" alt="аналоговые часы" />
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="advantage-title">Пунктуальность</h3>
+            <p class="advantage-description">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li class="item">
+          <li class="advantage-item">
             <img class="advantage-logo" src="./img/diagram-logo.svg" alt="диаграмма на экране" />
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="advantage-title">Планирование</h3>
+            <p class="advantage-description">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li class="item">
+          <li class="advantage-item">
             <img class="advantage-logo" src="./img/astronaut-logo.svg" alt="астронавт летит к звезде" />
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="advantage-title">Современные технологии</h3>
+            <p class="advantage-description">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -84,147 +85,149 @@
       </div>
     </section>
     <!-- чем мы занимаемся -->
-    <section class="what-we-do section">
+    <section class="works section">
       <div class="container">
         <h2 class="section-header">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li class="item">
-            <a href=""><img src="./img/notebook.jpg" width="370" alt="Ноутбук" />
-              <h3>Десктопные приложения</h3>
+        <ul class="works-list">
+          <li class="works-item">
+            <a class="works-link" href=""><img src="./img/notebook.jpg" width="370" alt="Ноутбук" />
+              <h3 class="works-title">Десктопные приложения</h3>
             </a>
           </li>
-          <li class="item">
-            <a href=""><img src="./img/smartphone.jpg" width="370" alt="Смартфон" />
-              <h3>Мобильные приложения</h3>
+          <li class="works-item">
+            <a class="works-link" href=""><img src="./img/smartphone.jpg" width="370" alt="Смартфон" />
+              <h3 class="works-title">Мобильные приложения</h3>
             </a>
           </li>
-          <li class="item">
-            <a href=""><img src="./img/monitor.jpg" width="370" alt="Пример дизайна на экране" />
-              <h3>Дизайнерские решения</h3>
+          <li class="works-item">
+            <a class="works-link" href=""><img src="./img/monitor.jpg" width="370" alt="Пример дизайна на экране" />
+              <h3 class="works-title">Дизайнерские решения</h3>
             </a>
           </li>
         </ul>
       </div>
     </section>
     <!-- наша команда -->
-    <section class="our-team section">
+    <section class="team section">
       <div class="container">
         <h2 class="section-header">Наша команда</h2>
-        <ul class="list" lang="en">
+        <ul class="team-list" lang="en">
           <!-- John Smith -->
-          <li class="item">
-            <a href=""><img src="./img/john-smith.jpg" width="270" height="260" alt="John Smith" />
-              <h3>John Smith</h3>
-              <p>Product Designer</p>
+          <li class="team-item">
+            <a class="team-link" href=""><img src="./img/john-smith.jpg" width="270" height="260" alt="John Smith" />
+              <h3 class="team-name">John Smith</h3>
+              <p class="team-profession">Product Designer</p>
             </a>
             <!-- Cсылки на соц сети -->
-            <ul class="social-media-list">
-              <li class="item">
-                <a class="link" href="">
+            <ul class="social-list">
+              <li class="social-item">
+                <a class="social-link" href="">
                   <img src="./img/instagram-logo.svg" alt="Instagram logo" />
                 </a>
               </li>
-              <li class="item">
-                <a class="link" href="">
+              <li class="social-item">
+                <a class="social-link" href="">
                   <img src="./img/twitter-logo.svg" alt="Twitter logo" />
                 </a>
               </li>
-              <li class="item">
-                <a class="link" href="">
+              <li class="social-item">
+                <a class="social-link" href="">
                   <img src="./img/facebook-logo.svg" alt="Facebook logo" />
                 </a>
               </li>
-              <li class="item">
-                <a class="link" href="">
+              <li class="social-item">
+                <a class="social-link" href="">
                   <img src="./img/linkedin-logo.svg" alt="LinkedIn logo" />
                 </a>
               </li>
             </ul>
           </li>
           <!-- Marta Stewart -->
-          <li class="item">
-            <a href=""><img src="./img/marta-stewart.jpg" width="270" height="260" alt="Marta Stewart" />
-              <h3>Marta Stewart</h3>
-              <p>Frontend Developer</p>
+          <li class="team-item">
+            <a class="team-link" href=""><img src="./img/marta-stewart.jpg" width="270" height="260"
+                alt="Marta Stewart" />
+              <h3 class="team-name">Marta Stewart</h3>
+              <p class="team-profession">Frontend Developer</p>
             </a>
             <!-- Cсылки на соц сети -->
-            <ul class="social-media-list">
-              <li class="item">
-                <a class="link" href="">
+            <ul class="social-list">
+              <li class="social-item">
+                <a class="social-link" href="">
                   <img src="./img/instagram-logo.svg" alt="Instagram logo" />
                 </a>
               </li>
-              <li class="item">
-                <a class="link" href="">
+              <li class="social-item">
+                <a class="social-link" href="">
                   <img src="./img/twitter-logo.svg" alt="Twitter logo" />
                 </a>
               </li>
-              <li class="item">
-                <a class="link" href="">
+              <li class="social-item">
+                <a class="social-link" href="">
                   <img src="./img/facebook-logo.svg" alt="Facebook logo" />
                 </a>
               </li>
-              <li class="item">
-                <a class="link" href="">
+              <li class="social-item">
+                <a class="social-link" href="">
                   <img src="./img/linkedin-logo.svg" alt="LinkedIn logo" />
                 </a>
               </li>
             </ul>
           </li>
           <!-- Robert Jakis -->
-          <li class="item">
-            <a href=""><img src="./img/robert-jakis.jpg" width="270" height="260" alt="Robert Jakis" />
-              <h3>Robert Jakis</h3>
-              <p>Marketing</p>
+          <li class="team-item">
+            <a class="team-link" href=""><img src="./img/robert-jakis.jpg" width="270" height="260"
+                alt="Robert Jakis" />
+              <h3 class="team-name">Robert Jakis</h3>
+              <p class="team-profession">Marketing</p>
             </a>
-            <ul class="social-media-list">
-              <li class="item">
-                <a class="link" href="">
+            <ul class="social-list">
+              <li class="social-item">
+                <a class="social-link" href="">
                   <img src="./img/instagram-logo.svg" alt="Instagram logo" />
                 </a>
               </li>
-              <li class="item">
-                <a class="link" href="">
+              <li class="social-item">
+                <a class="social-link" href="">
                   <img src="./img/twitter-logo.svg" alt="Twitter logo" />
                 </a>
               </li>
-              <li class="item">
-                <a class="link" href="">
+              <li class="social-item">
+                <a class="social-link" href="">
                   <img src="./img/facebook-logo.svg" alt="Facebook logo" />
                 </a>
               </li>
-              <li class="item">
-                <a class="link" href="">
+              <li class="social-item">
+                <a class="social-link" href="">
                   <img src="./img/linkedin-logo.svg" alt="LinkedIn logo" />
                 </a>
               </li>
             </ul>
           </li>
           <!-- Martin Doe -->
-          <li class="item">
-            <a href=""><img src="./img/martin-doe.jpg" width="270" height="260" alt="Martin Doe" />
-              <h3>Martin Doe</h3>
-              <p>UI Designer</p>
+          <li class="team-item">
+            <a class="team-link" href=""><img src="./img/martin-doe.jpg" width="270" height="260" alt="Martin Doe" />
+              <h3 class="team-name">Martin Doe</h3>
+              <p class="team-profession">UI Designer</p>
             </a>
             <!-- Cсылки на соц сети -->
-            <ul class="social-media-list">
-              <li class="item">
-                <a class="link" href="">
+            <ul class="social-list">
+              <li class="social-item">
+                <a class="social-link" href="">
                   <img src="./img/instagram-logo.svg" alt="Instagram logo" />
                 </a>
               </li>
-              <li class="item">
-                <a class="link" href="">
+              <li class="social-item">
+                <a class="social-link" href="">
                   <img src="./img/twitter-logo.svg" alt="Twitter logo" />
                 </a>
               </li>
-              <li class="item">
-                <a class="link" href="">
+              <li class="social-item">
+                <a class="social-link" href="">
                   <img src="./img/facebook-logo.svg" alt="Facebook logo" />
                 </a>
               </li>
-              <li class="item">
-                <a class="link" href="">
+              <li class="social-item">
+                <a class="social-link" href="">
                   <img src="./img/linkedin-logo.svg" alt="LinkedIn logo" />
                 </a>
               </li>
@@ -237,31 +240,31 @@
     <section class="clients section">
       <div class="container">
         <h2 class="section-header">Постоянные клиенты</h2>
-        <ul class="list">
-          <li class="item">
-            <a class="link" href=""><img class="logo-pic" src="./img/client-1-logo.svg" alt="company 1 logo" />
+        <ul class="clients-list">
+          <li class="clients-item">
+            <a class="clients-link" href=""><img class="logo-pic" src="./img/client-1-logo.svg" alt="company 1 logo" />
             </a>
           </li>
-          <li class="item">
-            <a class="link" href=""><img class="logo-pic" src="./img/client-2-logo.svg" alt="company 2 logo" />
+          <li class="clients-item">
+            <a class="clients-link" href=""><img class="logo-pic" src="./img/client-2-logo.svg" alt="company 2 logo" />
             </a>
           </li>
-          <li class="item">
-            <a class="link" href=""><img class="logo-pic" src="./img/client-3-logo.svg" alt="company 3 logo" />
+          <li class="clients-item">
+            <a class="clients-link" href=""><img class="logo-pic" src="./img/client-3-logo.svg" alt="company 3 logo" />
             </a>
           </li>
-          <li class="item">
-            <a class="link" href="">
+          <li class="clients-item">
+            <a class="clients-link" href="">
               <img class="logo-pic" src="./img/client-4-logo.svg" alt="company 4 logo" />
             </a>
           </li>
-          <li class="item">
-            <a class="link" href="">
+          <li class="clients-item">
+            <a class="clients-link" href="">
               <img class="logo-pic" src="./img/client-5-logo.svg" alt="company 5 logo" />
             </a>
           </li>
-          <li class="item">
-            <a class="link" href="">
+          <li class="clients-item">
+            <a class="clients-link" href="">
               <img class="logo-pic" src="./img/client-6-logo.svg" alt="company 6 logo" />
             </a>
           </li>
@@ -274,15 +277,15 @@
     <div class="container">
       <div class="address-column block">
         <a class="logo-footer" lang="en" href="./index.html">Web <span class="studio">Studio</span></a>
-        <address>
+        <address class="footer-address">
           <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
-          <a class="link" lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="link mail" lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="link tel" href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
       </div>
       <!-- присоединяйтесь -->
       <div class="connect block">
-        <b>присоединяйтесь</b>
+        <b class="block-title">присоединяйтесь</b>
         <ul class="list">
           <li class="item">
             <a class="link" href="">
@@ -306,15 +309,15 @@
           </li>
         </ul>
         <!-- <ul>
-                <a href="" aria-label="Instagram link">Instagram</a>
-                <a href="" aria-label="Twitter link">Twitter</a>
-                <a href="" aria-label="Facebook link">Facebook</a>
-                <a href="" aria-label="LinkedIn link">LinkedIn</a>
-              </ul> -->
+                    <a href="" aria-label="Instagram link">Instagram</a>
+                    <a href="" aria-label="Twitter link">Twitter</a>
+                    <a href="" aria-label="Facebook link">Facebook</a>
+                    <a href="" aria-label="LinkedIn link">LinkedIn</a>
+                  </ul> -->
       </div>
       <!-- подписаться на рассылку -->
       <div class="subscribe block">
-        <b>Подпишитесь на рассылку</b>
+        <b class="block-title">Подпишитесь на рассылку</b>
         <!-- e-mail -->
         <div class="subscribe-container">
           <div class="email">E-mail</div>
