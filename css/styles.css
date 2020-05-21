@@ -255,10 +255,6 @@ img {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
 }
-.team-link {
-  display: block;
-}
-
 .team-name {
   margin: 30px 0 0 0;
   /* padding: 30px 0 0 0; */
@@ -332,19 +328,17 @@ img {
   display: flex;
   padding-top: 46px;
   padding-bottom: 28px;
+  margin: 0 auto;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   justify-content: space-between;
   align-items: baseline;
 }
-.footer .block {
-  display: flex;
-  display: block;
-  flex-direction: column;
-  justify-content: flex-start;
-}
 
 /* column-1  */
-
+.address-column {
+  display: block;
+  width: 231px;
+}
 .logo-footer {
   font-family: raleway;
   color: var(--blue-color);
@@ -383,8 +377,10 @@ img {
 
 /* присоединяйтесь */
 
-/* .connect {
-  margin: 52px 0 0 0; */
+.connect {
+  display: block;
+  width: 207px;
+}
 .block-title {
   font-weight: bold;
   font-size: 14px;
@@ -416,9 +412,8 @@ img {
 /* подписаться на рассылку */
 
 .subscribe {
-  /* margin: 0 0 0 0; */
-  display: flex;
-  flex-direction: row;
+  display: block;
+  width: 570px;
 }
 .subscribe-container {
   display: flex;
@@ -427,7 +422,7 @@ img {
 }
 .subscribe .email {
   /* display: inline-block; */
-  width: 270px;
+  width: 358px;
   padding: 9px 12px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -469,23 +464,15 @@ img {
 /* PORTFOLIO */
 /* gallery */
 /* filter  */
-.gallery .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .filter-list {
   padding: 0;
   margin: 0 0 50px 0;
   display: flex;
-  display: inline-block;
-  /* margin: 0 auto; */
   justify-content: center;
+  /* text-align: center; */
 }
 .filter-item {
   display: inline-block;
-  margin: 0 auto;
-  justify-content: center;
 }
 .filter-button {
   display: block;
